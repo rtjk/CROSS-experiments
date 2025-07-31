@@ -29,12 +29,41 @@
  *
  **/
 
+
 #pragma once
 
-#include <stdint.h>
+#include "CROSS.h"
+#include "parameters.h"
 
-void KeccakF1600_StateExtractBytes(uint64_t *state, unsigned char *data,
-                                   unsigned int offset, unsigned int length);
-void KeccakF1600_StateXORBytes(uint64_t *state, const unsigned char *data,
-                               unsigned int offset, unsigned int length);
-void KeccakF1600_StatePermute(uint64_t *state);
+#define CRYPTO_ALGNAME "CROSS"
+
+/*  no. of bytes of the secret key */
+#define CRYPTO_SECRETKEYBYTES (sizeof(sk_t))
+
+/*  no. of bytes of the public key */
+#define CRYPTO_PUBLICKEYBYTES (sizeof(pk_t))
+
+/* no. of bytes of overhead in a signed message */
+#define CRYPTO_BYTES (sizeof(CROSS_sig_t))
+
+/* required bytes of input randomness */
+#define  CRYPTO_RANDOMBYTES (SEED_LENGTH_BYTES) //CROSS library -  parameters.h
+
+
+int crypto_sign_keypair(unsigned char *pk,
+                        unsigned char *sk
+                       );
+
+int crypto_sign(unsigned char *sm,
+                unsigned long long *smlen,
+                const unsigned char *m,
+                unsigned long long mlen,
+                const unsigned char *sk
+               );
+
+int crypto_sign_open(unsigned char *m,
+                     unsigned long long *mlen,
+                     const unsigned char *sm,
+                     unsigned long long smlen,
+                     const unsigned char *pk
+                    );

@@ -12,6 +12,7 @@
 #define TESTS           10000
 #define SEED            42
 
+#include "rng.h"
 #include "seedtree.h"
 
 int main() {

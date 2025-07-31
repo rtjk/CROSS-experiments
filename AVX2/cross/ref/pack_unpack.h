@@ -31,10 +31,37 @@
 
 #pragma once
 
+#include <stddef.h>
 #include <stdint.h>
 
-void KeccakF1600_StateExtractBytes(uint64_t *state, unsigned char *data,
-                                   unsigned int offset, unsigned int length);
-void KeccakF1600_StateXORBytes(uint64_t *state, const unsigned char *data,
-                               unsigned int offset, unsigned int length);
-void KeccakF1600_StatePermute(uint64_t *state);
+#include "parameters.h"
+
+/* compact Z_z/F_q vector encoding functions */
+
+void pack_fp_vec(uint8_t out[DENSELY_PACKED_FP_VEC_SIZE],
+                 const FP_ELEM in[N]);
+
+void pack_fp_syn(uint8_t out[DENSELY_PACKED_FP_SYN_SIZE],
+                 const FP_ELEM in[N-K]);
+
+void pack_fz_vec(uint8_t out[DENSELY_PACKED_FZ_VEC_SIZE],
+                 const FZ_ELEM in[N]);
+
+#ifdef RSDPG
+void pack_fz_rsdp_g_vec(uint8_t out[DENSELY_PACKED_FZ_RSDP_G_VEC_SIZE],
+                        const FZ_ELEM in[M]);
+#endif
+
+uint8_t unpack_fp_vec(FP_ELEM out[N],
+                      const uint8_t in[DENSELY_PACKED_FP_VEC_SIZE]);
+
+uint8_t unpack_fp_syn(FP_ELEM out[N-K],
+                      const uint8_t in[DENSELY_PACKED_FP_SYN_SIZE]);
+
+uint8_t unpack_fz_vec(FZ_ELEM out[N],
+                      const uint8_t in[DENSELY_PACKED_FZ_VEC_SIZE]);
+
+#ifdef RSDPG
+uint8_t unpack_fz_rsdp_g_vec(FZ_ELEM out[M],
+                             const uint8_t in[DENSELY_PACKED_FZ_RSDP_G_VEC_SIZE]);
+#endif
