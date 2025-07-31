@@ -1,0 +1,19 @@
+Start by installing the necessary components (curl, OpenSSL, liboqs, oqs-provider) using install.sh on an m7i-flex.large EC2 instance. Then create an Amazon Machine Image (AMI) from that instance.
+
+Now use the AMI to launch 3 new instances: a Server (in Paris) and 3 clients (in Paris, Frankfurt, and California). Then SSH into the Server and use chain.sh to build the TLS cerficiate chain using a specific signature algorithm, followed by start.sh to open TCP connections on port 443.
+
+Next, SSH into the clients, one at a time, copy the newly generated root certificate from the Server, then run measure.sh to handshake the Server for 10 seconds and collect the statistics.
+
+The 3 AWS regions used are:
+- eu-west-3 (Paris)
+- eu-central-1 (Frankfurt)
+- us-west-1 (California)
+
+We measured bandwidth (with iperf3) and latency (with ping) between Clients and Sever:
+
+cleint,server,delay,bandwidth
+paris,paris,0.4ms,4698Mbps
+frankfurt,paris,8.3ms,2920Mbps
+california,paris,143ms,82.3Mbps
+
+The experiment was run on 2025/07/22.

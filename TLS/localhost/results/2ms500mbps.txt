@@ -1,0 +1,159 @@
+2025-07-04-13-24-38
+KEM: mlkem512
+Time: 10
+Traffic Control: ON (2ms 500mbps)
+--------
+alg: ed25519
+1144 connections in 0.80s; 1430.00 connections/user sec, bytes read 0
+1144 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: ed448
+1080 connections in 1.06s; 1018.87 connections/user sec, bytes read 0
+1080 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: rsa
+1093 connections in 0.56s; 1951.79 connections/user sec, bytes read 0
+1093 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: mldsa44
+1079 connections in 0.93s; 1160.22 connections/user sec, bytes read 0
+1079 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: mldsa65
+1023 connections in 1.13s; 905.31 connections/user sec, bytes read 0
+1023 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: mldsa87
+989 connections in 1.44s; 686.81 connections/user sec, bytes read 0
+989 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: falcon512
+755 connections in 1.71s; 441.52 connections/user sec, bytes read 0
+755 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: falconpadded512
+769 connections in 1.74s; 441.95 connections/user sec, bytes read 0
+769 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: falcon1024
+760 connections in 1.80s; 422.22 connections/user sec, bytes read 0
+760 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: falconpadded1024
+737 connections in 1.80s; 409.44 connections/user sec, bytes read 0
+737 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: sphincsshake128fsimple
+351 connections in 1.88s; 186.70 connections/user sec, bytes read 0
+351 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: sphincsshake192fsimple
+300 connections in 1.99s; 150.75 connections/user sec, bytes read 0
+300 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: sphincsshake256fsimple
+167 connections in 1.10s; 151.82 connections/user sec, bytes read 0
+167 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: mayo1
+766 connections in 1.92s; 398.96 connections/user sec, bytes read 0
+766 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: mayo2
+827 connections in 1.88s; 439.89 connections/user sec, bytes read 0
+827 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: mayo3
+798 connections in 2.09s; 381.82 connections/user sec, bytes read 0
+798 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: mayo5
+756 connections in 2.50s; 302.40 connections/user sec, bytes read 0
+756 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdp128balanced
+735 connections in 2.83s; 259.72 connections/user sec, bytes read 0
+735 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdp128fast
+773 connections in 2.34s; 330.34 connections/user sec, bytes read 0
+773 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdp128small
+663 connections in 3.32s; 199.70 connections/user sec, bytes read 0
+663 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdp192balanced
+659 connections in 3.59s; 183.57 connections/user sec, bytes read 0
+659 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdp192fast
+458 connections in 2.02s; 226.73 connections/user sec, bytes read 0
+458 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdp192small
+602 connections in 4.26s; 141.31 connections/user sec, bytes read 0
+602 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdpg128balanced
+686 connections in 2.28s; 300.88 connections/user sec, bytes read 0
+686 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdpg128fast
+798 connections in 2.09s; 381.82 connections/user sec, bytes read 0
+798 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdpg128small
+644 connections in 2.77s; 232.49 connections/user sec, bytes read 0
+644 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdpg192balanced
+686 connections in 2.61s; 262.84 connections/user sec, bytes read 0
+686 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdpg192fast
+688 connections in 2.46s; 279.67 connections/user sec, bytes read 0
+688 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdpg192small
+673 connections in 3.62s; 185.91 connections/user sec, bytes read 0
+673 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdpg256balanced
+527 connections in 2.61s; 201.92 connections/user sec, bytes read 0
+527 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdpg256fast
+436 connections in 1.96s; 222.45 connections/user sec, bytes read 0
+436 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: CROSSrsdpg256small
+491 connections in 3.34s; 147.01 connections/user sec, bytes read 0
+491 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: OV_Ip_pkc
+467 connections in 1.48s; 315.54 connections/user sec, bytes read 0
+467 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: OV_Ip_pkc_skc
+468 connections in 1.46s; 320.55 connections/user sec, bytes read 0
+468 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: snova2454
+744 connections in 1.80s; 413.33 connections/user sec, bytes read 0
+744 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: snova37172
+746 connections in 1.84s; 405.43 connections/user sec, bytes read 0
+746 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: snova2455
+705 connections in 2.12s; 332.55 connections/user sec, bytes read 0
+705 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+alg: snova2965
+658 connections in 2.31s; 284.85 connections/user sec, bytes read 0
+658 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+--------
+2025-07-04-13-32-19
