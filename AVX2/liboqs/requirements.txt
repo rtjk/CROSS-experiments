@@ -1,0 +1,6 @@
+matplotlib
+numpy
+ipympl
+pyqt6
+pandas
+adjustText

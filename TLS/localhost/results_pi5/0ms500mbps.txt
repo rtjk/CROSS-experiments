@@ -1,0 +1,247 @@
+2025-10-17-16-03-06
+KEM: mlkem512
+Time: 10
+Traffic Control: ON (0ms 500mbps)
+--------
+sig: ed25519
+6768 connections in 6.37s; 1062.48 connections/user sec, bytes read 0
+6768 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: ed448
+3101 connections in 7.82s; 396.55 connections/user sec, bytes read 0
+3101 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: rsa
+2016 connections in 1.79s; 1126.26 connections/user sec, bytes read 0
+2016 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: mldsa44
+4292 connections in 5.48s; 783.21 connections/user sec, bytes read 0
+4292 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: mldsa65
+3436 connections in 5.72s; 600.70 connections/user sec, bytes read 0
+3436 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: mldsa87
+2693 connections in 6.02s; 447.34 connections/user sec, bytes read 0
+2693 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: falconpadded512
+1684 connections in 5.34s; 315.36 connections/user sec, bytes read 0
+1684 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: falconpadded1024
+1556 connections in 5.29s; 294.14 connections/user sec, bytes read 0
+1556 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: sphincsshake128fsimple
+136 connections in 2.00s; 68.00 connections/user sec, bytes read 0
+136 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: sphincsshake128ssimple
+9 connections in 0.07s; 128.57 connections/user sec, bytes read 0
+9 connections in 12 real seconds, 0 bytes read per connection
+>>>> done
+sig: sphincsshake192fsimple
+96 connections in 1.96s; 48.98 connections/user sec, bytes read 0
+96 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: sphincsshake192ssimple
+5 connections in 0.05s; 100.00 connections/user sec, bytes read 0
+5 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: sphincsshake256fsimple
+43 connections in 0.87s; 49.43 connections/user sec, bytes read 0
+43 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: sphincsshake256ssimple
+6 connections in 0.07s; 85.71 connections/user sec, bytes read 0
+6 connections in 12 real seconds, 0 bytes read per connection
+>>>> done
+sig: mayo1
+1624 connections in 5.88s; 276.19 connections/user sec, bytes read 0
+1624 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: mayo2
+2030 connections in 6.79s; 298.97 connections/user sec, bytes read 0
+2030 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: mayo3
+1534 connections in 7.51s; 204.26 connections/user sec, bytes read 0
+1534 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: mayo5
+1173 connections in 7.89s; 148.67 connections/user sec, bytes read 0
+1173 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdp128balanced
+1254 connections in 7.95s; 157.74 connections/user sec, bytes read 0
+1254 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdp128fast
+1508 connections in 7.42s; 203.23 connections/user sec, bytes read 0
+1508 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdp128small
+968 connections in 9.31s; 103.97 connections/user sec, bytes read 0
+968 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdp192balanced
+921 connections in 9.08s; 101.43 connections/user sec, bytes read 0
+921 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdp192fast
+887 connections in 6.55s; 135.42 connections/user sec, bytes read 0
+887 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdp192small
+682 connections in 8.81s; 77.41 connections/user sec, bytes read 0
+682 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdp256balanced
+580 connections in 8.98s; 64.59 connections/user sec, bytes read 0
+580 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdp256small
+426 connections in 9.20s; 46.30 connections/user sec, bytes read 0
+426 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdpg128balanced
+1008 connections in 5.97s; 168.84 connections/user sec, bytes read 0
+1008 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdpg128fast
+1560 connections in 7.40s; 210.81 connections/user sec, bytes read 0
+1560 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdpg128small
+701 connections in 6.12s; 114.54 connections/user sec, bytes read 0
+701 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdpg192balanced
+1080 connections in 8.10s; 133.33 connections/user sec, bytes read 0
+1080 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdpg192fast
+1291 connections in 8.37s; 154.24 connections/user sec, bytes read 0
+1291 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdpg192small
+800 connections in 9.07s; 88.20 connections/user sec, bytes read 0
+800 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdpg256balanced
+870 connections in 9.05s; 96.13 connections/user sec, bytes read 0
+870 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdpg256fast
+977 connections in 8.87s; 110.15 connections/user sec, bytes read 0
+977 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: CROSSrsdpg256small
+618 connections in 9.65s; 64.04 connections/user sec, bytes read 0
+618 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: OV_Is
+606 connections in 7.00s; 86.57 connections/user sec, bytes read 0
+606 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: OV_Ip
+739 connections in 6.40s; 115.47 connections/user sec, bytes read 0
+739 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: OV_III
+251 connections in 7.04s; 35.65 connections/user sec, bytes read 0
+251 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: OV_V
+105 connections in 6.90s; 15.22 connections/user sec, bytes read 0
+105 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: OV_Is_pkc
+1141 connections in 6.15s; 185.53 connections/user sec, bytes read 0
+1141 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: OV_Ip_pkc
+1631 connections in 7.14s; 228.43 connections/user sec, bytes read 0
+1631 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: OV_III_pkc
+715 connections in 6.48s; 110.34 connections/user sec, bytes read 0
+715 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: OV_V_pkc
+432 connections in 7.65s; 56.47 connections/user sec, bytes read 0
+432 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: OV_Is_pkc_skc
+996 connections in 5.50s; 181.09 connections/user sec, bytes read 0
+996 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: OV_Ip_pkc_skc
+1609 connections in 7.12s; 225.98 connections/user sec, bytes read 0
+1609 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: OV_III_pkc_skc
+506 connections in 4.48s; 112.95 connections/user sec, bytes read 0
+506 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: OV_V_pkc_skc
+347 connections in 5.95s; 58.32 connections/user sec, bytes read 0
+347 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: snova2454
+1315 connections in 5.62s; 233.99 connections/user sec, bytes read 0
+1315 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: snova2454shake
+1259 connections in 5.94s; 211.95 connections/user sec, bytes read 0
+1259 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: snova2454esk
+1359 connections in 5.86s; 231.91 connections/user sec, bytes read 0
+1359 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: snova2454shakeesk
+1305 connections in 6.16s; 211.85 connections/user sec, bytes read 0
+1305 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: snova37172
+1308 connections in 5.87s; 222.83 connections/user sec, bytes read 0
+1308 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: snova2583
+1485 connections in 5.94s; 250.00 connections/user sec, bytes read 0
+1485 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: snova56252
+1101 connections in 8.23s; 133.78 connections/user sec, bytes read 0
+1101 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: snova49113
+1239 connections in 8.38s; 147.85 connections/user sec, bytes read 0
+1239 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: snova3784
+1165 connections in 8.17s; 142.59 connections/user sec, bytes read 0
+1165 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: snova2455
+894 connections in 5.66s; 157.95 connections/user sec, bytes read 0
+894 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: snova60104
+396 connections in 5.71s; 69.35 connections/user sec, bytes read 0
+396 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+sig: snova2965
+717 connections in 5.64s; 127.13 connections/user sec, bytes read 0
+717 connections in 11 real seconds, 0 bytes read per connection
+>>>> done
+--------
+52169a1 open-quantum-safe/liboqs~main
+636b8de rtjk/openssl~fix_apps_verification
+8603d0d open-quantum-safe/oqs-provider~main
+--------
+2025-10-17-16-17-54
