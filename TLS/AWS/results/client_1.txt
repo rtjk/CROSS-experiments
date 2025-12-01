@@ -1,177 +1,177 @@
 sig: ed25519
-7370 connections in 5.04s; 1462.30 connections/user sec, bytes read 0
-7370 connections in 11 real seconds, 0 bytes read per connection
+3319 connections in 4.34s; 764.75 connections/user sec, bytes read 0
+3319 connections in 11 real seconds, 0 bytes read per connection
 sig: ed448
-5924 connections in 5.30s; 1117.74 connections/user sec, bytes read 0
-5924 connections in 11 real seconds, 0 bytes read per connection
+3283 connections in 4.50s; 729.56 connections/user sec, bytes read 0
+3283 connections in 11 real seconds, 0 bytes read per connection
 sig: rsa
-6547 connections in 3.09s; 2118.77 connections/user sec, bytes read 0
-6547 connections in 11 real seconds, 0 bytes read per connection
+4213 connections in 3.07s; 1372.31 connections/user sec, bytes read 0
+4213 connections in 11 real seconds, 0 bytes read per connection
 sig: mldsa44
-6145 connections in 4.61s; 1332.97 connections/user sec, bytes read 0
-6145 connections in 11 real seconds, 0 bytes read per connection
+4786 connections in 3.83s; 1249.61 connections/user sec, bytes read 0
+4786 connections in 11 real seconds, 0 bytes read per connection
 sig: mldsa65
-4869 connections in 4.62s; 1053.90 connections/user sec, bytes read 0
-4869 connections in 11 real seconds, 0 bytes read per connection
+4059 connections in 4.03s; 1007.20 connections/user sec, bytes read 0
+4059 connections in 11 real seconds, 0 bytes read per connection
 sig: mldsa87
-4366 connections in 5.25s; 831.62 connections/user sec, bytes read 0
-4366 connections in 11 real seconds, 0 bytes read per connection
+3695 connections in 4.81s; 768.19 connections/user sec, bytes read 0
+3695 connections in 11 real seconds, 0 bytes read per connection
 sig: falconpadded512
-1387 connections in 2.45s; 566.12 connections/user sec, bytes read 0
-1387 connections in 11 real seconds, 0 bytes read per connection
+2613 connections in 4.89s; 534.36 connections/user sec, bytes read 0
+2613 connections in 11 real seconds, 0 bytes read per connection
 sig: falconpadded1024
-931 connections in 1.94s; 479.90 connections/user sec, bytes read 0
-931 connections in 11 real seconds, 0 bytes read per connection
+2311 connections in 4.57s; 505.69 connections/user sec, bytes read 0
+2311 connections in 11 real seconds, 0 bytes read per connection
 sig: sphincsshake128fsimple
-212 connections in 1.93s; 109.84 connections/user sec, bytes read 0
-212 connections in 11 real seconds, 0 bytes read per connection
+479 connections in 2.53s; 189.33 connections/user sec, bytes read 0
+479 connections in 11 real seconds, 0 bytes read per connection
 sig: sphincsshake128ssimple
-13 connections in 0.06s; 216.67 connections/user sec, bytes read 0
-13 connections in 11 real seconds, 0 bytes read per connection
+37 connections in 0.12s; 308.33 connections/user sec, bytes read 0
+37 connections in 11 real seconds, 0 bytes read per connection
 sig: sphincsshake192fsimple
-148 connections in 1.86s; 79.57 connections/user sec, bytes read 0
-148 connections in 11 real seconds, 0 bytes read per connection
+378 connections in 2.56s; 147.66 connections/user sec, bytes read 0
+378 connections in 11 real seconds, 0 bytes read per connection
 sig: sphincsshake192ssimple
-8 connections in 0.04s; 200.00 connections/user sec, bytes read 0
-8 connections in 12 real seconds, 0 bytes read per connection
+21 connections in 0.09s; 233.33 connections/user sec, bytes read 0
+21 connections in 11 real seconds, 0 bytes read per connection
 sig: sphincsshake256fsimple
-75 connections in 0.95s; 78.95 connections/user sec, bytes read 0
-75 connections in 11 real seconds, 0 bytes read per connection
+188 connections in 1.28s; 146.88 connections/user sec, bytes read 0
+188 connections in 11 real seconds, 0 bytes read per connection
 sig: sphincsshake256ssimple
-8 connections in 0.06s; 133.33 connections/user sec, bytes read 0
-8 connections in 11 real seconds, 0 bytes read per connection
+25 connections in 0.12s; 208.33 connections/user sec, bytes read 0
+25 connections in 11 real seconds, 0 bytes read per connection
 sig: mayo1
-2428 connections in 5.21s; 466.03 connections/user sec, bytes read 0
-2428 connections in 11 real seconds, 0 bytes read per connection
+2248 connections in 5.00s; 449.60 connections/user sec, bytes read 0
+2248 connections in 11 real seconds, 0 bytes read per connection
 sig: mayo2
-3258 connections in 5.87s; 555.03 connections/user sec, bytes read 0
-3258 connections in 11 real seconds, 0 bytes read per connection
+2766 connections in 5.09s; 543.42 connections/user sec, bytes read 0
+2766 connections in 11 real seconds, 0 bytes read per connection
 sig: mayo3
-2039 connections in 5.51s; 370.05 connections/user sec, bytes read 0
-2039 connections in 11 real seconds, 0 bytes read per connection
+2362 connections in 6.09s; 387.85 connections/user sec, bytes read 0
+2362 connections in 11 real seconds, 0 bytes read per connection
 sig: mayo5
-1255 connections in 5.05s; 248.51 connections/user sec, bytes read 0
-1255 connections in 11 real seconds, 0 bytes read per connection
+2056 connections in 6.68s; 307.78 connections/user sec, bytes read 0
+2056 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdp128balanced
-2088 connections in 8.17s; 255.57 connections/user sec, bytes read 0
-2088 connections in 11 real seconds, 0 bytes read per connection
+2008 connections in 6.15s; 326.50 connections/user sec, bytes read 0
+2008 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdp128fast
-2511 connections in 7.34s; 342.10 connections/user sec, bytes read 0
-2511 connections in 11 real seconds, 0 bytes read per connection
+2480 connections in 6.27s; 395.53 connections/user sec, bytes read 0
+2480 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdp128small
-1360 connections in 8.04s; 169.15 connections/user sec, bytes read 0
-1360 connections in 11 real seconds, 0 bytes read per connection
+1696 connections in 7.29s; 232.65 connections/user sec, bytes read 0
+1696 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdp192balanced
-1323 connections in 8.15s; 162.33 connections/user sec, bytes read 0
-1323 connections in 11 real seconds, 0 bytes read per connection
+1577 connections in 7.16s; 220.25 connections/user sec, bytes read 0
+1577 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdp192fast
-1251 connections in 5.97s; 209.55 connections/user sec, bytes read 0
-1251 connections in 11 real seconds, 0 bytes read per connection
+1496 connections in 5.31s; 281.73 connections/user sec, bytes read 0
+1496 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdp192small
-1064 connections in 8.69s; 122.44 connections/user sec, bytes read 0
-1064 connections in 11 real seconds, 0 bytes read per connection
+1362 connections in 7.93s; 171.75 connections/user sec, bytes read 0
+1362 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdp256balanced
-976 connections in 8.99s; 108.57 connections/user sec, bytes read 0
-976 connections in 11 real seconds, 0 bytes read per connection
+1162 connections in 7.70s; 150.91 connections/user sec, bytes read 0
+1162 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdp256small
-675 connections in 9.23s; 73.13 connections/user sec, bytes read 0
-675 connections in 11 real seconds, 0 bytes read per connection
+880 connections in 8.28s; 106.28 connections/user sec, bytes read 0
+880 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdpg128balanced
-1769 connections in 6.04s; 292.88 connections/user sec, bytes read 0
-1769 connections in 11 real seconds, 0 bytes read per connection
+2166 connections in 5.48s; 395.26 connections/user sec, bytes read 0
+2166 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdpg128fast
-2781 connections in 7.25s; 383.59 connections/user sec, bytes read 0
-2781 connections in 11 real seconds, 0 bytes read per connection
+2644 connections in 5.88s; 449.66 connections/user sec, bytes read 0
+2644 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdpg128small
-1235 connections in 6.45s; 191.47 connections/user sec, bytes read 0
-1235 connections in 11 real seconds, 0 bytes read per connection
+1705 connections in 5.55s; 307.21 connections/user sec, bytes read 0
+1705 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdpg192balanced
-1990 connections in 8.17s; 243.57 connections/user sec, bytes read 0
-1990 connections in 11 real seconds, 0 bytes read per connection
+2224 connections in 6.65s; 334.44 connections/user sec, bytes read 0
+2224 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdpg192fast
-2066 connections in 7.46s; 276.94 connections/user sec, bytes read 0
-2066 connections in 11 real seconds, 0 bytes read per connection
+2387 connections in 6.53s; 365.54 connections/user sec, bytes read 0
+2387 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdpg192small
-1381 connections in 8.79s; 157.11 connections/user sec, bytes read 0
-1381 connections in 11 real seconds, 0 bytes read per connection
+1815 connections in 7.31s; 248.29 connections/user sec, bytes read 0
+1815 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdpg256balanced
-1407 connections in 8.55s; 164.56 connections/user sec, bytes read 0
-1407 connections in 11 real seconds, 0 bytes read per connection
+1814 connections in 7.02s; 258.40 connections/user sec, bytes read 0
+1814 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdpg256fast
-1584 connections in 8.38s; 189.02 connections/user sec, bytes read 0
-1584 connections in 11 real seconds, 0 bytes read per connection
+1846 connections in 6.49s; 284.44 connections/user sec, bytes read 0
+1846 connections in 11 real seconds, 0 bytes read per connection
 sig: CROSSrsdpg256small
-1018 connections in 9.24s; 110.17 connections/user sec, bytes read 0
-1018 connections in 11 real seconds, 0 bytes read per connection
+1360 connections in 7.07s; 192.36 connections/user sec, bytes read 0
+1360 connections in 11 real seconds, 0 bytes read per connection
 sig: OV_Is
-1028 connections in 6.63s; 155.05 connections/user sec, bytes read 0
-1028 connections in 11 real seconds, 0 bytes read per connection
+877 connections in 5.85s; 149.91 connections/user sec, bytes read 0
+877 connections in 11 real seconds, 0 bytes read per connection
 sig: OV_Ip
-1271 connections in 6.14s; 207.00 connections/user sec, bytes read 0
-1271 connections in 11 real seconds, 0 bytes read per connection
+1082 connections in 5.12s; 211.33 connections/user sec, bytes read 0
+1082 connections in 11 real seconds, 0 bytes read per connection
 sig: OV_III
-477 connections in 7.81s; 61.08 connections/user sec, bytes read 0
-477 connections in 11 real seconds, 0 bytes read per connection
+405 connections in 6.46s; 62.69 connections/user sec, bytes read 0
+405 connections in 11 real seconds, 0 bytes read per connection
 sig: OV_V
-192 connections in 7.51s; 25.57 connections/user sec, bytes read 0
-192 connections in 11 real seconds, 0 bytes read per connection
+176 connections in 6.53s; 26.95 connections/user sec, bytes read 0
+176 connections in 11 real seconds, 0 bytes read per connection
 sig: OV_Is_pkc
-2202 connections in 5.87s; 375.13 connections/user sec, bytes read 0
-2202 connections in 11 real seconds, 0 bytes read per connection
+2072 connections in 5.46s; 379.49 connections/user sec, bytes read 0
+2072 connections in 11 real seconds, 0 bytes read per connection
 sig: OV_Ip_pkc
-2771 connections in 6.80s; 407.50 connections/user sec, bytes read 0
-2771 connections in 11 real seconds, 0 bytes read per connection
+2359 connections in 5.57s; 423.52 connections/user sec, bytes read 0
+2359 connections in 11 real seconds, 0 bytes read per connection
 sig: OV_III_pkc
-1213 connections in 5.53s; 219.35 connections/user sec, bytes read 0
-1213 connections in 11 real seconds, 0 bytes read per connection
+1091 connections in 4.93s; 221.30 connections/user sec, bytes read 0
+1091 connections in 11 real seconds, 0 bytes read per connection
 sig: OV_V_pkc
-761 connections in 6.61s; 115.13 connections/user sec, bytes read 0
-761 connections in 11 real seconds, 0 bytes read per connection
+700 connections in 5.91s; 118.44 connections/user sec, bytes read 0
+700 connections in 11 real seconds, 0 bytes read per connection
 sig: OV_Is_pkc_skc
-1189 connections in 3.28s; 362.50 connections/user sec, bytes read 0
-1189 connections in 11 real seconds, 0 bytes read per connection
+1749 connections in 4.87s; 359.14 connections/user sec, bytes read 0
+1749 connections in 11 real seconds, 0 bytes read per connection
 sig: OV_Ip_pkc_skc
-1025 connections in 2.55s; 401.96 connections/user sec, bytes read 0
-1025 connections in 11 real seconds, 0 bytes read per connection
+2331 connections in 5.59s; 416.99 connections/user sec, bytes read 0
+2331 connections in 11 real seconds, 0 bytes read per connection
 sig: OV_III_pkc_skc
-241 connections in 1.24s; 194.35 connections/user sec, bytes read 0
-241 connections in 11 real seconds, 0 bytes read per connection
+845 connections in 4.01s; 210.72 connections/user sec, bytes read 0
+845 connections in 11 real seconds, 0 bytes read per connection
 sig: OV_V_pkc_skc
-127 connections in 1.24s; 102.42 connections/user sec, bytes read 0
-127 connections in 11 real seconds, 0 bytes read per connection
+667 connections in 5.68s; 117.43 connections/user sec, bytes read 0
+667 connections in 11 real seconds, 0 bytes read per connection
 sig: snova2454
-1836 connections in 5.99s; 306.51 connections/user sec, bytes read 0
-1836 connections in 11 real seconds, 0 bytes read per connection
+2161 connections in 4.82s; 448.34 connections/user sec, bytes read 0
+2161 connections in 11 real seconds, 0 bytes read per connection
 sig: snova2454shake
-1589 connections in 5.56s; 285.79 connections/user sec, bytes read 0
-1589 connections in 11 real seconds, 0 bytes read per connection
+2122 connections in 4.82s; 440.25 connections/user sec, bytes read 0
+2122 connections in 11 real seconds, 0 bytes read per connection
 sig: snova2454esk
-1744 connections in 5.66s; 308.13 connections/user sec, bytes read 0
-1744 connections in 11 real seconds, 0 bytes read per connection
+2077 connections in 4.71s; 440.98 connections/user sec, bytes read 0
+2077 connections in 11 real seconds, 0 bytes read per connection
 sig: snova2454shakeesk
-1680 connections in 5.85s; 287.18 connections/user sec, bytes read 0
-1680 connections in 11 real seconds, 0 bytes read per connection
+2201 connections in 4.93s; 446.45 connections/user sec, bytes read 0
+2201 connections in 11 real seconds, 0 bytes read per connection
 sig: snova37172
-1754 connections in 5.03s; 348.71 connections/user sec, bytes read 0
-1754 connections in 11 real seconds, 0 bytes read per connection
+2171 connections in 4.85s; 447.63 connections/user sec, bytes read 0
+2171 connections in 11 real seconds, 0 bytes read per connection
 sig: snova2583
-1955 connections in 6.20s; 315.32 connections/user sec, bytes read 0
-1955 connections in 11 real seconds, 0 bytes read per connection
+2200 connections in 4.75s; 463.16 connections/user sec, bytes read 0
+2200 connections in 11 real seconds, 0 bytes read per connection
 sig: snova56252
-1507 connections in 7.25s; 207.86 connections/user sec, bytes read 0
-1507 connections in 11 real seconds, 0 bytes read per connection
+1995 connections in 5.83s; 342.20 connections/user sec, bytes read 0
+1995 connections in 11 real seconds, 0 bytes read per connection
 sig: snova49113
-1297 connections in 8.02s; 161.72 connections/user sec, bytes read 0
-1297 connections in 11 real seconds, 0 bytes read per connection
+2312 connections in 6.48s; 356.79 connections/user sec, bytes read 0
+2312 connections in 11 real seconds, 0 bytes read per connection
 sig: snova3784
-1199 connections in 8.18s; 146.58 connections/user sec, bytes read 0
-1199 connections in 11 real seconds, 0 bytes read per connection
+2187 connections in 6.14s; 356.19 connections/user sec, bytes read 0
+2187 connections in 11 real seconds, 0 bytes read per connection
 sig: snova2455
-768 connections in 6.58s; 116.72 connections/user sec, bytes read 0
-768 connections in 11 real seconds, 0 bytes read per connection
+1683 connections in 4.91s; 342.77 connections/user sec, bytes read 0
+1683 connections in 11 real seconds, 0 bytes read per connection
 sig: snova60104
-370 connections in 5.60s; 66.07 connections/user sec, bytes read 0
-370 connections in 11 real seconds, 0 bytes read per connection
+1051 connections in 4.72s; 222.67 connections/user sec, bytes read 0
+1051 connections in 11 real seconds, 0 bytes read per connection
 sig: snova2965
-487 connections in 6.37s; 76.45 connections/user sec, bytes read 0
-487 connections in 11 real seconds, 0 bytes read per connection
+1432 connections in 5.04s; 284.13 connections/user sec, bytes read 0
+1432 connections in 11 real seconds, 0 bytes read per connection

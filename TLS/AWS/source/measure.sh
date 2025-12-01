@@ -11,7 +11,7 @@
 #   scp -i server.pem generate.yml $SERVER:~
 #   ssh -i server.pem $SERVER 'sudo bash -s' < setup.sh
 # then export the instance as AMI:
-#   > action > image and templates > create image > reboot image: no > create image
+#   > action > image and templates > create image > reboot instance: no > create image
 # when the AMI status becomes "available" copy it to the other regions
 #   https://console.aws.amazon.com/ec2#Images:
 #   > actions > copy AMI > destination region: ... > copy AMI
@@ -21,10 +21,10 @@ set -e
 
 SIG_ALG_LIST=$(cat siglist.txt | grep -v '^\s*#')
 
-SERVER="admin@ec2-13-39-107-30.eu-west-3.compute.amazonaws.com"
-CLIENT_1="admin@ec2-13-38-229-139.eu-west-3.compute.amazonaws.com"
-CLIENT_2="admin@ec2-63-177-52-110.eu-central-1.compute.amazonaws.com"
-CLIENT_3="admin@ec2-13-57-59-170.us-west-1.compute.amazonaws.com"
+SERVER="admin@ec2-51-44-222-74.eu-west-3.compute.amazonaws.com"
+CLIENT_1="admin@ec2-13-38-52-72.eu-west-3.compute.amazonaws.com"
+CLIENT_2="admin@ec2-3-71-102-219.eu-central-1.compute.amazonaws.com"
+CLIENT_3="admin@ec2-13-52-245-61.us-west-1.compute.amazonaws.com"
 
 date '+%Y-%m-%d-%H-%M-%S'
 echo "--------"
